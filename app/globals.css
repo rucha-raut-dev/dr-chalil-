@@ -31,6 +31,16 @@ img { max-width: 100%; }
 .site-header nav a:hover::after { right: 0; }
 .header-cta { border-bottom: 1px solid var(--ink); padding: 5px 0; font-size: 11px; font-weight: 700; }
 
+.mobile-nav { display: none; position: relative; } .mobile-menu-button { display: flex; align-items: center; justify-content: center; width: 38px; height: 38px; border: 1px solid var(--line); background: transparent; color: var(--ink); cursor: pointer; } .mobile-menu { position: absolute; top: calc(100% + 10px); right: 0; z-index: 50; display: flex; flex-direction: column; min-width: 200px; background: var(--white); border: 1px solid var(--line); box-shadow: 0 14px 32px rgba(24,31,26,.14); } .mobile-menu a { padding: 13px 18px; font-size: 12px; border-bottom: 1px solid var(--line); } .mobile-menu a:last-child { border-bottom: 0; } .mobile-menu a:hover { background: var(--paper-2); }
+
+.mobile-nav { display: none; position: relative; }
+.mobile-menu-button { display: flex; align-items: center; justify-content: center; width: 38px; height: 38px; border: 1px solid var(--line); background: transparent; color: var(--ink); cursor: pointer; }
+.mobile-menu { position: absolute; top: calc(100% + 10px); right: 0; z-index: 50; display: flex; flex-direction: column; min-width: 200px; background: var(--white); border: 1px solid var(--line); box-shadow: 0 14px 32px rgba(24,31,26,.14); }
+.mobile-menu a { padding: 13px 18px; font-size: 12px; border-bottom: 1px solid var(--line); }
+.mobile-menu a:last-child { border-bottom: 0; }
+.mobile-menu a:hover { background: var(--paper-2); }
+
+
 .hero { min-height: 570px; display: grid; grid-template-columns: minmax(0, .91fr) minmax(0, 1.09fr); gap: 54px; align-items: stretch; padding-top: 34px; padding-bottom: 42px; }
 .hero-copy { display: flex; flex-direction: column; justify-content: center; padding: 16px 0 16px 18px; }
 .eyebrow { margin-bottom: 15px; color: #737b72; font-size: 9px; line-height: 1.2; font-weight: 700; letter-spacing: .19em; text-transform: uppercase; }
@@ -149,6 +159,16 @@ em { color: var(--sage); font-style: normal; }
 .contact-links a svg:last-child { margin-left: auto; }
 .contact-links a span { color: #788774; font-size: 8px; letter-spacing: .12em; }
 
+
+.explore-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); }
+.explore-card { position: relative; display: block; padding: 26px 24px 30px; background: var(--paper); transition: background .2s ease; }
+.explore-card:hover { background: var(--white); }
+.explore-card h3 { margin: 0 0 8px; font-family: Georgia, "Times New Roman", serif; font-size: 20px; font-weight: 400; letter-spacing: -.02em; }
+.explore-card p { margin: 0; padding-right: 20px; color: var(--muted); font-size: 11px; line-height: 1.6; }
+.explore-arrow { position: absolute; top: 26px; right: 22px; color: #9a9e98; transition: transform .2s ease, color .2s ease; }
+.explore-card:hover .explore-arrow { color: var(--ink); transform: translate(2px, -2px); }
+
+
 footer { background: var(--ink); color: #aeb6ae; }
 .footer-inner { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 25px; font-size: 9px; }
 .footer-inner .brand { color: var(--white); }
@@ -167,6 +187,8 @@ footer { background: var(--ink); color: #aeb6ae; }
   .shell { width: min(100% - 40px, 680px); }
   .site-header { padding: 0 20px; }
   .site-header nav, .header-cta { display: none; }
+  .mobile-nav { display: block; margin-left: auto; }
+  .mobile-nav { display: block; margin-left: auto; }
   .hero { grid-template-columns: 1fr; gap: 28px; padding-top: 20px; min-height: auto; }
   .hero-copy { padding: 22px 0 0; }
   .hero h1 { max-width: 620px; font-size: clamp(43px, 10vw, 60px); }
@@ -183,6 +205,7 @@ footer { background: var(--ink); color: #aeb6ae; }
   .gallery-grid { grid-template-columns: 1fr 1fr; grid-template-rows: 260px 180px; }
   .gallery-1 { grid-row: 1 / span 2; }
   .contact-grid { gap: 38px; }
+  .explore-grid { grid-template-columns: 1fr 1fr; }
 }
 
 @media (max-width: 560px) {
@@ -204,4 +227,5 @@ footer { background: var(--ink); color: #aeb6ae; }
   .gallery-grid { grid-template-columns: 1fr; grid-template-rows: 290px 220px; }
   .gallery-1 { grid-row: auto; }
   .footer-inner { min-height: 95px; flex-wrap: wrap; padding: 18px 0; }
+  .explore-grid { grid-template-columns: 1fr; }
 }

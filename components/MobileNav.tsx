@@ -1,9 +1,9 @@
 "use client";
 
+import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-
-const items = ["About", "Career", "Education", "Books", "Research", "Awards", "Media", "Contact"];
+import { navItems } from "../lib/data";
 
 export default function MobileNav() {
   const [open, setOpen] = useState(false);
@@ -15,8 +15,9 @@ export default function MobileNav() {
       </button>
       {open && (
         <div className="mobile-menu">
-          {items.map((item) => (
-            <a key={item} href={`#${item.toLowerCase()}`} onClick={() => setOpen(false)}>{item}</a>
+          <Link href="/" onClick={() => setOpen(false)}>Home</Link>
+          {navItems.map((item) => (
+            <Link key={item.label} href={item.href} onClick={() => setOpen(false)}>{item.label}</Link>
           ))}
         </div>
       )}
