@@ -26,8 +26,10 @@ export default function MediaPage() {
           ))}
         </div>
         <div className="media-footer">
-          <ArrowLink href="https://drchalil.com/events-news/" external>View all media &amp; news</ArrowLink>
-          {" "}
+          <ArrowLink href="/media">
+  View all media &amp; news
+</ArrowLink>
+{" "}
           <ArrowLink href="/gallery">View photo gallery</ArrowLink>
         </div>
       </div>
