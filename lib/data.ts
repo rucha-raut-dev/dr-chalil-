@@ -106,3 +106,24 @@ export const explore = [
   { label: "Gallery", href: "/gallery", desc: "A look at leadership in the room." },
   { label: "Contact", href: "/contact", desc: "Start a professional or media conversation." },
 ];
+
+export const news = [
+  {
+    slug: "how-two-indians-anticipated-trumps-healthcare-reform",
+    title: "How Two Indians Anticipated Trump’s Healthcare Reform",
+    meta: "The Sunday Guardian · 18–24 January 2026",
+    description:
+      "An op-ed co-authored with Ambassador Pradeep Kumar Kapur examining healthcare reform ideas and their relevance to the United States.",
+    image: "/images/news/how-two-indians-article-cover.jpg",
+    source: "The Sunday Guardian",
+    content: [
+      "Dr. Joseph M. Chalil and Ambassador Pradeep Kumar Kapur co-authored an op-ed published in The Sunday Guardian in January 2026. The article discusses healthcare reform ideas and their relevance to the evolving healthcare debate in the United States.",
+
+      "The discussion focuses on healthcare costs, transparency and access to quality care. It also looks at how India and the United States can learn from each other and collaborate across healthcare, pharmaceuticals, hospitals and health technology.",
+
+      "The article highlights India's experience with affordable healthcare, digital health solutions and innovative healthcare delivery models as areas that could support stronger collaboration between the two countries.",
+
+      "The broader discussion considers how healthcare reforms can place patients at the centre while improving affordability, accountability and access to quality healthcare.",
+    ],
+  },
+];
