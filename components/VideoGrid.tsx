@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { Play, X } from "lucide-react";
+import { ChevronLeft, ChevronRight, Play, X } from "lucide-react";
 import { useEffect, useState } from "react";
 
 type Video = {
@@ -47,26 +47,41 @@ function VideoThumbnail({
 export default function VideoGrid({ videos }: { videos: Video[] }) {
   const [activeId, setActiveId] = useState<string | null>(null);
 
-  // Close on Escape key
+  const filtered = videos;
+
+  const activeIndex = filtered.findIndex((v) => v.id === activeId);
+  const activeVideo = activeIndex >= 0 ? filtered[activeIndex] : null;
+
+  function showPrev() {
+    if (activeIndex < 0) return;
+    const prev = (activeIndex - 1 + filtered.length) % filtered.length;
+    setActiveId(filtered[prev].id);
+  }
+
+  function showNext() {
+    if (activeIndex < 0) return;
+    const next = (activeIndex + 1) % filtered.length;
+    setActiveId(filtered[next].id);
+  }
+
+  // Keyboard controls while the modal is open
   useEffect(() => {
     if (!activeId) return;
     function handleKey(e: KeyboardEvent) {
       if (e.key === "Escape") setActiveId(null);
+      if (e.key === "ArrowRight") showNext();
+      if (e.key === "ArrowLeft") showPrev();
     }
     document.addEventListener("keydown", handleKey);
     return () => document.removeEventListener("keydown", handleKey);
-  }, [activeId]);
-
-  const activeVideo = videos.find((v) => v.id === activeId) || null;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [activeId, activeIndex, filtered]);
 
   return (
     <>
       <div className="media-grid">
-        {videos.map((video, index) => (
-          <article
-            className={`media-card ${index === 0 ? "featured" : ""}`}
-            key={video.id}
-          >
+        {filtered.map((video) => (
+          <article className="media-card" key={video.id}>
             <button
               type="button"
               className="media-image video-trigger"
@@ -74,14 +89,11 @@ export default function VideoGrid({ videos }: { videos: Video[] }) {
               aria-label={`Play video: ${video.title}`}
             >
               <VideoThumbnail videoId={video.id} title={video.title} />
+              <span className="media-image-scrim" />
               <span className="play">
                 <Play size={15} fill="currentColor" />
               </span>
             </button>
-            <div className="media-title">
-              <span>0{index + 1}</span>
-              <h3>{video.title}</h3>
-            </div>
           </article>
         ))}
       </div>
@@ -106,13 +118,44 @@ export default function VideoGrid({ videos }: { videos: Video[] }) {
             >
               <X size={20} />
             </button>
+
+            {filtered.length > 1 && (
+              <>
+                <button
+                  type="button"
+                  className="video-modal-nav video-modal-prev"
+                  onClick={showPrev}
+                  aria-label="Previous video"
+                >
+                  <ChevronLeft size={22} />
+                </button>
+                <button
+                  type="button"
+                  className="video-modal-nav video-modal-next"
+                  onClick={showNext}
+                  aria-label="Next video"
+                >
+                  <ChevronRight size={22} />
+                </button>
+              </>
+            )}
+
             <div className="video-modal-frame">
               <iframe
+                key={activeVideo.id}
                 src={`https://www.youtube-nocookie.com/embed/${activeVideo.id}?autoplay=1&rel=0`}
                 title={activeVideo.title}
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               />
+            </div>
+
+            <div className="video-modal-caption">
+              <h3>{activeVideo.title}</h3>
+              <span>
+                {activeIndex + 1} / {filtered.length}
+                {activeVideo.source ? ` · ${activeVideo.source}` : ""}
+              </span>
             </div>
           </div>
         </div>

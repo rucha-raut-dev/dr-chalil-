@@ -39,6 +39,8 @@ export default function NewsPage() {
               <h3>{article.title}</h3>
 
               <p>{article.description}</p>
+
+              <span className="news-row-meta">{article.meta}</span>
             </div>
 
             <Link

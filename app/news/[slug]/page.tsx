@@ -33,7 +33,8 @@ export async function generateMetadata({
 }
 
 export default function NewsArticlePage({ params }: PageProps) {
-  const article = news.find((item) => item.slug === params.slug);
+  const articleIndex = news.findIndex((item) => item.slug === params.slug);
+  const article = news[articleIndex];
 
   if (!article) {
     return (
@@ -80,17 +81,26 @@ export default function NewsArticlePage({ params }: PageProps) {
 
           <aside className="news-article-aside">
             <span>ARTICLE</span>
-            <strong>01</strong>
+            <strong>{String(articleIndex + 1).padStart(2, "0")}</strong>
           </aside>
 
           <article className="news-article-body">
 
-            <div className="news-article-image">
-              <img
-                src={article.image}
-                alt={article.title}
-              />
-            </div>
+            {article.image ? (
+              <div className="news-article-image">
+                <img
+                  src={article.image}
+                  alt={article.title}
+                />
+              </div>
+            ) : (
+              <div className="news-article-image news-article-image-placeholder">
+                <span className="news-placeholder-mark">“</span>
+                <span className="news-placeholder-source">
+                  {article.source}
+                </span>
+              </div>
+            )}
 
             <div className="news-article-copy">
               {article.content.map((paragraph, index) => (

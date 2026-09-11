@@ -202,7 +202,7 @@ export const news = [
   {
     slug: "how-two-indians-anticipated-trumps-healthcare-reform",
     title: "How Two Indians Anticipated Trump’s Healthcare Reform",
-    meta: "The Sunday Guardian · 18–24 January 2026",
+    meta: "The Sunday Guardian · January 2026",
     description:
       "An op-ed co-authored with Ambassador Pradeep Kumar Kapur examining healthcare reform ideas and their relevance to the United States.",
     image: "/images/news/how-two-indians-article-cover.jpg",
@@ -215,6 +215,186 @@ export const news = [
       "The article highlights India's experience with affordable healthcare, digital health solutions and innovative healthcare delivery models as areas that could support stronger collaboration between the two countries.",
 
       "The broader discussion considers how healthcare reforms can place patients at the centre while improving affordability, accountability and access to quality healthcare.",
+    ],
+  },
+  {
+    slug: "the-west-must-end-its-double-standards-towards-india",
+    title: "The West Must End Its Double Standards Towards India",
+    meta: "The Sunday Guardian · June 2025",
+    description:
+      "An op-ed arguing that Western media and policymakers judge India's lawful security measures far more harshly than similar actions taken by the United States, and calling for the two democracies to treat each other as equals.",
+    source: "The Sunday Guardian",
+    content: [
+      "The piece compares President Trump's 2025 deployment of National Guard troops and Marines to quell unrest in Los Angeles with the Indian government's use of security forces during the 2021–22 farmers' protests and after the revocation of Article 370 in Jammu and Kashmir. Both actions, the argument goes, were carried out within each country's constitutional framework, yet Western commentators branded India's response as authoritarian while treating the American case as a legitimate exercise of executive power.",
+
+      "The article contends that maintaining law and order is not, in itself, evidence of authoritarianism, and that Western outlets often apply a double standard when covering democracies outside the West. It argues that this selective framing reflects a lingering post-colonial mindset that treats the West as the sole arbiter of democratic legitimacy.",
+
+      "The piece closes with a call for the U.S. and India to build their strategic partnership on mutual respect and reciprocity rather than ideological lecturing, arguing that both nations acted lawfully during periods of domestic unrest and should be judged by the same standard.",
+    ],
+  },
+  {
+    slug: "bharats-role-in-rebuilding-post-war-middle-east",
+    title: "Bharat’s Role in Rebuilding the Post-War Middle East",
+    meta: "The Sunday Guardian · December 2023",
+    description:
+      "Co-authored with Ambassador Pradeep Kapur, this piece examines how India could help rebuild and stabilize the Middle East after conflict, through economic corridors, education and diplomacy.",
+    source: "The Sunday Guardian",
+    content: [
+      "Co-written with Ambassador Pradeep Kapur and published in The Sunday Guardian, the article looks at how India could contribute to postwar recovery and long-term stability in the Middle East.",
+
+      "It highlights initiatives such as the India–Middle East–Europe Economic Corridor as a vehicle for regional integration, and argues that investing in youth and women's education and skills training is central to sustainable peace.",
+
+      "The piece also considers how the Abraham Accords and broader diplomatic normalization could open space for more inclusive dialogue between regional players, positioning India as a constructive partner in the region's rebuilding.",
+    ],
+  },
+  {
+    slug: "qatar-india-diplomatic-conundrum",
+    title: "Qatar–India Diplomatic Conundrum: What’s India’s Next Move?",
+    meta: "The Sunday Guardian · November 2023",
+    description:
+      "Written with Ambassador Pradeep Kapur, this analysis examines India's diplomatic options after a Qatari court ruling against a group of former Indian Navy officers, and what is at stake for bilateral relations.",
+    source: "The Sunday Guardian",
+    content: [
+      "Co-authored with Ambassador Pradeep Kapur for The Sunday Guardian, the article examines the diplomatic fallout after a Qatari court's judgment against a group of retired Indian Navy officers, and the options available to New Delhi in response.",
+
+      "The piece weighs several possible levers, from reviewing aviation and landing rights to leaning on economic ties between the two countries, while stressing the importance of due process and a fair trial for the individuals involved.",
+
+      "It frames the episode as a test of India's diplomatic resolve, and asks whether New Delhi's next move will project strength or signal a broader recalibration of its approach to the Gulf.",
+    ],
+  },
+  {
+    slug: "nikki-haley-vivek-ramaswamy-indian-american-voters-2024",
+    title:
+      "Why Nikki Haley and Vivek Ramaswamy Matter to Indian American Voters",
+    meta: "USA Today · August 2023",
+    description:
+      "In this USA Today feature on the 2024 Republican primary, Dr. Chalil discusses why Vivek Ramaswamy's business-first message and generational appeal resonate with segments of the Indian American electorate.",
+    source: "USA Today",
+    content: [
+      "Speaking with USA Today ahead of the 2024 Republican primary, Dr. Chalil discussed how candidates Nikki Haley and Vivek Ramaswamy were courting Indian American voters.",
+
+      "He noted that Ramaswamy's relative youth and entrepreneurial background set him apart from more traditional politicians in the field, and that his message of direct, plain-spoken problem-solving appealed to voters looking for a fresh face.",
+
+      "Dr. Chalil also reflected on his own early impressions of politics in India decades earlier, contrasting the career-politician model with the outsider appeal that candidates like Ramaswamy were bringing to the 2024 race.",
+    ],
+  },
+  {
+    slug: "aapi-presidential-award",
+    title: "Dr. Joseph M. Chalil Honored with AAPI’s Presidential Award",
+    meta: "The Universal News Network · July 2023",
+    description:
+      "Coverage of Dr. Chalil receiving the Presidential Award for Leadership from the American Association of Physicians of Indian Origin (AAPI), recognizing his contributions to the organization and the broader Indian American medical community.",
+    source: "The Universal News Network",
+    content: [
+      "The Universal News Network reported on Dr. Joseph M. Chalil being honored with AAPI's Presidential Award for Leadership, recognizing his years of service and advocacy on behalf of physicians of Indian origin in the United States.",
+
+      "The recognition reflects his long-standing involvement with AAPI, including his prior role as the organization's Chief Strategic Adviser, and his broader work connecting the Indian American medical and policy communities.",
+    ],
+  },
+  {
+    slug: "india-medical-infrastructure-growth",
+    title: "Under Modi Government, India Outpaces the World in Medical Infrastructure",
+    meta: "The Sunday Guardian · June 2023",
+    description:
+      "A Sunday Guardian piece marking nine years of the Modi government, highlighting the sharp rise in medical colleges, MBBS seats and AIIMS campuses in India relative to the U.S. and Canada.",
+    source: "The Sunday Guardian",
+    content: [
+      "Published in The Sunday Guardian as part of a series assessing nine years under the Modi government, the article cites a 78% increase in the number of medical colleges in India since 2014, compared with 9% growth in the United States and none in Canada over the same period.",
+
+      "It also points to a 105% rise in MBBS seats and 186% growth in AIIMS institutions, arguing that this expansion positions India to potentially close its own physician gap and asking whether the moment calls for a more unified 'One India, One Healthcare' approach.",
+    ],
+  },
+  {
+    slug: "g20-global-healthcare-crisis",
+    title: "Under India’s G20 Leadership, a Path to Solving the Global Healthcare Crisis",
+    meta: "The Sunday Guardian · March 2023",
+    description:
+      "Drawing on Lancet and AAMC projections of a global and U.S. physician shortage, this piece argues that India, as G20 host and through Prime Minister Modi's leadership, is positioned to help address the coming workforce gap.",
+    source: "The Sunday Guardian",
+    content: [
+      "Citing a Lancet estimate that 6.4 million more physicians are needed worldwide to meet universal health coverage goals, and AAMC projections of a U.S. shortfall of up to 139,000 physicians by 2033, the article argues that the global healthcare workforce shortage deserves a central place on the G20 agenda.",
+
+      "It suggests several ways India could contribute: expanding investment in medical schools and postgraduate training, growing telemedicine programs to serve underserved populations in other G20 countries, creating clearer pathways for Indian doctors to practice abroad, and sharing India's public health policy expertise more broadly.",
+    ],
+  },
+  {
+    slug: "annual-physical-exam-prevention",
+    title: "Prevention Better Than Cure: Why the Annual Physical Exam Matters",
+    meta: "The Sunday Guardian · March 2023",
+    description:
+      "A short Sunday Guardian piece arguing that India's success with mass COVID-19 vaccination shows the country's potential to lead on public health, provided it also invests in everyday preventive care such as routine physical exams.",
+    source: "The Sunday Guardian",
+    content: [
+      "The piece points to India's large-scale COVID-19 vaccination campaign as evidence of what the country's health system can achieve at scale, while arguing that sustained investment in preventive care, including routine annual physical exams, is still needed to build a healthier population over the long term.",
+    ],
+  },
+  {
+    slug: "beyond-covid-19-pandemic-book",
+    title: "Beyond the COVID-19 Pandemic: Envisioning a Better World",
+    meta: "The Universal News Network · March 2023",
+    description:
+      "A feature on Dr. Chalil and Ambassador Pradeep Kapur's book, which proposes a 'Grand Plan' combining a public safety net with free-market competition to reform U.S. healthcare delivery and prepare for future crises.",
+    source: "The Universal News Network",
+    content: [
+      "The piece introduces Beyond the COVID-19 Pandemic: Envisioning a Better World by Transforming the Future of Healthcare, co-written by Ambassador Pradeep Kapur and Dr. Joseph Chalil, which draws lessons from the pandemic to propose reforms to U.S. healthcare delivery.",
+
+      "The authors outline what they call a 'Grand Plan' that combines a public safety net with free-market competition, and argue that adopting new health technologies more widely could change how care is delivered during future natural disasters, wars or pandemics.",
+
+      "The book also calls on global institutions such as the United Nations and WHO to go beyond incremental reform, urging the political consensus needed to meaningfully improve healthcare access, education and sustainable living both in the U.S. and internationally.",
+    ],
+  },
+  {
+    slug: "chief-medical-officer-novo-integrated-sciences",
+    title: "Dr. Chalil Appointed Chief Medical Officer of Novo Integrated Sciences",
+    meta: "The Universal News Network · April 2022",
+    description:
+      "Announcement of Dr. Chalil's appointment as Chief Medical Officer of Novo Integrated Sciences (NASDAQ: NVOS) and President of Novomerica Health Group, following the acquisition of Clinical Consultants International.",
+    source: "The Universal News Network",
+    content: [
+      "Novo Integrated Sciences, Inc. (NASDAQ: NVOS) announced the appointment of Dr. Joseph M. Chalil as its Chief Medical Officer and President of its new Novomerica Health Group subsidiary, following the company's acquisition of Clinical Consultants International (CCI), the firm Dr. Chalil had led.",
+
+      "Novo's CEO Robert Mattacchione described the move as a step toward accelerating the company's decentralized, multidisciplinary approach to healthcare delivery in the U.S. and internationally, pointing to CCI's team of physician leaders, former diplomats and regulatory experts as a strong fit for Novo's growth plans.",
+
+      "Dr. Chalil had chaired Novo's Medical Advisory Board since 2021 and brought experience from earlier roles at DBV Technologies, Boehringer Ingelheim, Abbott Laboratories and Hoffmann-La Roche, alongside his standing as a Fellow of the American College of Healthcare Executives and a U.S. Navy Medical Corps veteran.",
+    ],
+  },
+  {
+    slug: "peanut-allergy-immunotherapy-poster",
+    title: "Presenting Research on Epicutaneous Immunotherapy for Peanut Allergy",
+    meta: "Intermountain West Allergy Association · September 2021",
+    description:
+      "Dr. Chalil presented research on the severity reduction seen after 12 months of epicutaneous immunotherapy for peanut allergy at the Intermountain West Allergy Association's annual scientific session.",
+    source: "Intermountain West Allergy Association",
+    content: [
+      "Dr. Chalil presented a research poster, 'Reduction in Severity Following 12 Months of Epicutaneous Immunotherapy for Peanut Allergy,' at the 23rd Annual Scientific Session of the Intermountain West Allergy Association, held at The Coeur d'Alene Resort in Idaho.",
+    ],
+  },
+  {
+    slug: "functioning-primary-health-facilities",
+    title: "Functioning Primary Health Facilities: The First Step Toward Healthcare Reform",
+    meta: "The Sunday Guardian · July 2021",
+    description:
+      "A Sunday Guardian op-ed proposing a dedicated Indian Health Service cadre, modeled on the IAS, to staff and coordinate India's public health system at the district level.",
+    source: "The Sunday Guardian",
+    content: [
+      "The article proposes that India create a dedicated Indian Health Service (IHS) branch, similar in structure to the Indian Administrative Service, to coordinate public health delivery at the district level.",
+
+      "It estimates that roughly 742 IHS officers, one per district and ranked on par with IAS officers, would be needed to oversee local health systems, alongside an expansion of medical and nursing colleges to build the workforce required to keep primary health facilities properly staffed.",
+    ],
+  },
+  {
+    slug: "pandemic-exposes-gaps-india-primary-health-care",
+    title: "Pandemic Exposes Gaps in India’s Primary Health Care System",
+    meta: "The Epoch Times · June 2021",
+    description:
+      "Reporting from a village outside New Delhi, this piece documents how COVID-19 testing and vaccination bypassed a shuttered local sub-health center, exposing structural gaps in India's three-tiered rural healthcare system.",
+    source: "The Epoch Times",
+    content: [
+      "Reporting from Nausana, a village roughly 60 miles outside New Delhi in Uttar Pradesh, the piece describes how COVID-19 vaccinations were administered on traditional rope beds in villagers' homes rather than at the local sub-health center, which sat locked, dusty and unused.",
+
+      "It lays out India's three-tiered rural health system, where each sub-center serves roughly 5,000 people, a group of six sub-centers feeds into a primary health center serving over 30,000, and four primary health centers in turn feed into a community health center serving more than 120,000 people.",
+
+      "The piece argues that the pandemic exposed how far this structure can fall short in practice, with facilities meant to be a village's first point of contact for care sitting idle even during a public health emergency.",
     ],
   },
 ];
