@@ -1229,25 +1229,91 @@ em {
 }
 
 footer {
-  background: var(--ink);
+  background: linear-gradient(180deg, #161c16 0%, var(--ink) 45%);
   color: #aeb6ae;
 }
 
-.footer-inner {
-  min-height: 76px;
+.footer-top {
+  min-height: 78px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 25px;
-  font-size: 9px;
+  gap: 24px;
+  flex-wrap: wrap;
+  padding: 20px 0;
 }
 
-.footer-inner .brand {
+.footer-top .brand {
+  color: var(--white);
+  font-size: 15px;
+  flex: 0 0 auto;
+}
+
+.footer-top .brand-mark {
+  width: 34px;
+  height: 34px;
+  border-color: rgba(255, 255, 255, 0.35);
   color: var(--white);
 }
 
-.footer-inner p {
+.footer-tagline {
   margin: 0;
+  font-size: 11px;
+  letter-spacing: 0.01em;
+  color: #8b928b;
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.footer-divider {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.14) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 0 0 auto;
+}
+
+.social-icon {
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  color: #aeb6ae;
+  transition:
+    transform 0.22s ease,
+    background 0.22s ease,
+    color 0.22s ease,
+    border-color 0.22s ease,
+    box-shadow 0.22s ease;
+}
+
+.social-icon:hover {
+  background: var(--brand, var(--sage));
+  border-color: var(--brand, var(--sage));
+  color: #0d100c;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px -8px var(--brand, var(--sage));
+}
+
+.footer-bottom {
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 9px;
+  letter-spacing: 0.02em;
+  color: #7c837c;
 }
 
 
@@ -1467,10 +1533,17 @@ footer {
     font-size: 12px;
   }
 
-  .footer-inner {
-    min-height: 95px;
+  .footer-top {
+    min-height: auto;
     flex-wrap: wrap;
-    padding: 18px 0;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .footer-tagline {
+    order: 3;
+    flex-basis: 100%;
   }
 
   .explore-grid {
