@@ -73,10 +73,22 @@ export const books = [
   },
 ];
 
-export const media = [
-  ["https://i.ytimg.com/vi/UaK0RDGgdFg/hqdefault.jpg", "Trump–Modi G7 Meet, US–Iran MoU, and Global Leadership Dynamics"],
-  ["https://i.ytimg.com/vi/hW9GavN4vbk/hqdefault.jpg", "Iran–US Standoff at Strait of Hormuz"],
-  ["https://i.ytimg.com/vi/6lDBxNBGcEw/hqdefault.jpg", "NDTV Profit: Iran Conflict, Energy Security & Global Affairs"],
+export const videos = [
+  {
+    id: "UaK0RDGgdFg",
+    title: "Trump–Modi G7 Meet, US–Iran MoU, and Global Leadership Dynamics",
+    source: "NDTV",
+  },
+  {
+    id: "hW9GavN4vbk",
+    title: "Iran–US Standoff at Strait of Hormuz",
+    source: "NDTV",
+  },
+  {
+    id: "6lDBxNBGcEw",
+    title: "NDTV Profit: Iran Conflict, Energy Security & Global Affairs",
+    source: "NDTV Profit",
+  },
 ];
 
 export const gallery = [
@@ -102,7 +114,7 @@ export const explore = [
   { label: "Books", href: "/books", desc: "Ideas that move the healthcare conversation." },
   { label: "Research", href: "/research", desc: "Publications and patent work from Dr. Chalil's research record." },
   { label: "Awards", href: "/awards", desc: "Recognition for leadership and service." },
-  { label: "Media", href: "/media", desc: "Interviews and commentary across news platforms." },
+  { label: "Videos", href: "/videos", desc: "Interviews and commentary across news platforms." },
   { label: "Gallery", href: "/gallery", desc: "A look at leadership in the room." },
   { label: "Contact", href: "/contact", desc: "Start a professional or media conversation." },
 ];
