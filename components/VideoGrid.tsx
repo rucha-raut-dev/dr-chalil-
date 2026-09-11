@@ -10,6 +10,40 @@ type Video = {
   source?: string;
 };
 
+// YouTube doesn't 404 when a high-res thumbnail is missing — it silently
+// returns a tiny 120x90 grey placeholder instead. We start with the sharp
+// maxresdefault image and, once loaded, check its real size: if it turns
+// out to be that placeholder we drop down to hqdefault, which YouTube
+// guarantees for every video. This keeps thumbnails sharp when possible
+// without ever showing the grey placeholder.
+function VideoThumbnail({
+  videoId,
+  title,
+}: {
+  videoId: string;
+  title: string;
+}) {
+  const [src, setSrc] = useState(
+    `https://i.ytimg.com/vi/${videoId}/maxresdefault.jpg`
+  );
+
+  return (
+    <Image
+      src={src}
+      alt={title}
+      fill
+      sizes="(max-width: 900px) 100vw, 33vw"
+      className="video-img"
+      onLoad={(e) => {
+        const img = e.currentTarget;
+        if (img.naturalWidth <= 120 && img.naturalHeight <= 90) {
+          setSrc(`https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`);
+        }
+      }}
+    />
+  );
+}
+
 export default function VideoGrid({ videos }: { videos: Video[] }) {
   const [activeId, setActiveId] = useState<string | null>(null);
 
@@ -39,13 +73,7 @@ export default function VideoGrid({ videos }: { videos: Video[] }) {
               onClick={() => setActiveId(video.id)}
               aria-label={`Play video: ${video.title}`}
             >
-              <Image
-                src={`https://i.ytimg.com/vi/${video.id}/hqdefault.jpg`}
-                alt={video.title}
-                fill
-                sizes="(max-width: 900px) 100vw, 33vw"
-                className="video-img"
-              />
+              <VideoThumbnail videoId={video.id} title={video.title} />
               <span className="play">
                 <Play size={15} fill="currentColor" />
               </span>
