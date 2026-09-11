@@ -16,6 +16,7 @@ type Video = {
 // out to be that placeholder we drop down to hqdefault, which YouTube
 // guarantees for every video. This keeps thumbnails sharp when possible
 // without ever showing the grey placeholder.
+
 function VideoThumbnail({
   videoId,
   title,
