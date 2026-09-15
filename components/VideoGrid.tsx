@@ -10,12 +10,13 @@ type Video = {
   source?: string;
 };
 
-// YouTube doesn't 404 when a high-res thumbnail is missing — it silently
-// returns a tiny 120x90 grey placeholder instead. We start with the sharp
-// maxresdefault image and, once loaded, check its real size: if it turns
-// out to be that placeholder we drop down to hqdefault, which YouTube
-// guarantees for every video. This keeps thumbnails sharp when possible
-// without ever showing the grey placeholder.
+// A missing high-res YouTube thumbnail can fail in two different ways:
+// 1. YouTube silently returns a tiny 120x90 grey placeholder (loads fine,
+//    but is the wrong image) — caught by onLoad checking naturalWidth/Height.
+// 2. The maxresdefault.jpg file doesn't exist on YouTube's server at all,
+//    so the request itself 404s and onLoad never fires — caught by onError.
+// Either case falls back to hqdefault.jpg, which YouTube guarantees for
+// every public video.
 
 function VideoThumbnail({
   videoId,
@@ -24,6 +25,7 @@ function VideoThumbnail({
   videoId: string;
   title: string;
 }) {
+  const fallbackSrc = `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
   const [src, setSrc] = useState(
     `https://i.ytimg.com/vi/${videoId}/maxresdefault.jpg`
   );
@@ -38,8 +40,11 @@ function VideoThumbnail({
       onLoad={(e) => {
         const img = e.currentTarget;
         if (img.naturalWidth <= 120 && img.naturalHeight <= 90) {
-          setSrc(`https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`);
+          setSrc(fallbackSrc);
         }
+      }}
+      onError={() => {
+        setSrc(fallbackSrc);
       }}
     />
   );

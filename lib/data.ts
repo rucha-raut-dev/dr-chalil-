@@ -114,6 +114,207 @@ export const videos = [
     id: "0O1oBCvQVVU",
     title: "Strategic Affairs RoundTable — India-US Relationship in the Asian Century",
   },
+  {
+    id: "4Dw9KOmyUrY",
+    title: "Two Democracies, One Law: Dr. Joseph M. Chalil on Ending the West's Double Standard Toward India",
+  },
+  {
+    id: "2gqpX5G15So",
+    title: "India-USA: The Next Great Alliance? Modi Meets Vivek, Deportation Explained",
+    source: "Republic TV",
+  },
+  {
+    id: "FpCTIx9R63o",
+    title: "PM Modi's Historic US Visit Under Trump: Terrorist Weaken & Extradited",
+    source: "Republic TV",
+  },
+  {
+    id: "wXS_1vgQ__s",
+    title: "PM Modi-Trump Meeting: A Strategic Shift; Pro-India Leaders Rise, Pakistan Faces Setbacks",
+    source: "CNN News18",
+  },
+  {
+    id: "TIe-Ggby1Zk",
+    title: "Dr. Joseph M. Chalil, MD, MBA, FACHE Speaking on US Presidential Elections 2024: A Perspective",
+  },
+  {
+    id: "PKbH5Y8C1-E",
+    title: "Trump, Inflation & the Economy: DD India's Insightful Analysis",
+    source: "DD India",
+  },
+  {
+    id: "WiG0ibVQ1pY",
+    title: "Why More Indian Americans Are Voting For Trump? Dr. Joseph Chalil Explains",
+  },
+  {
+    id: "AldHw6_tZhU",
+    title: "US Elections 2024: Zelensky Congratulates Trump On US Election Victory",
+  },
+  {
+    id: "QfvKMe4OMoE",
+    title: "PM Modi Congratulates Donald Trump: 'Congratulate My Friend On Historic Win'",
+  },
+  {
+    id: "TCP2kOqZ6KU",
+    title: "Italian Prime Minister Giorgia Meloni Congratulates Trump On His Victory In The Presidential Polls",
+  },
+  {
+    id: "HXZWZNVwDnE",
+    title: "US Deep State Should Be Worried As India, Russia, China Join Hands — Dr. Joseph Chalil",
+  },
+  {
+    id: "xK_91YHVCuY",
+    title: "Dr. Joseph Chalil Warns: Russia-India-China Alliance Challenges NATO's Global Dominance",
+  },
+  {
+    id: "GdsCBDw-fMI",
+    title: "Dr. Joseph Chalil on Trudeau's Trade Policies: Impact on Canadian Exports to India",
+    source: "Superprimetime",
+  },
+  {
+    id: "7ZhEqrI2tis",
+    title: "Indian Diaspora's Unwavering Support: A Grand Welcome for PM Modi in NYC",
+  },
+  {
+    id: "aMbp6yCBZns",
+    title: "Have Gender Equality and Wokeism Compromised the Effectiveness of the Secret Service?",
+  },
+  {
+    id: "H7aYhiUNIuM",
+    title: "Commanding Change: Dr. Joseph M. Chalil's Vision for the Future of Healthcare",
+  },
+  {
+    id: "vAOF1wHVhzk",
+    title: "15 Minutes Highlights — Book Launch Event, India Beyond The Pandemic",
+  },
+  {
+    id: "ytL_RwqWsY0",
+    title: "Burning Question LIVE: Western Media Attacks Indian Democracy — Why Should West Lecture India?",
+  },
+  {
+    id: "2X8GL9d-82A",
+    title: "Is British Media Pushing The Pakistani Narrative Now?",
+    source: "Republic TV",
+  },
+  {
+    id: "PkljG92t3uY",
+    title: "Mirror or Mirage: Navigating America's Political Dissent and Pakistan's Imran Khan Dilemma",
+  },
+  {
+    id: "m82VuPbkTnc",
+    title: "Dr. Joseph M. Chalil, MD, MBA, FACHE — Global Healthcare Executive and Best-Selling Author",
+  },
+  {
+    id: "g0IMDGzP660",
+    title: "Why Do Many Indo-US Journalists See Modi Just as an RSS Leader and Not the World Leader?",
+  },
+  {
+    id: "ctXb7nfgllE",
+    title: "Unveiling U.S. Influence in Middle East Turmoil: A Conversation with Dr. Joseph Chalil",
+  },
+  {
+    id: "Bk7lNqBbpzk",
+    title: "The Forgotten Tragedy of Kanishka: Unpacking Pannun's Threat to Air India",
+  },
+  {
+    id: "Mpc8SSa5ujI",
+    title: "Dr. Joseph Chalil on Arnab Goswami's Show: Unveiling the Pannun Controversy",
+  },
+  {
+    id: "qHQhvWGniLM",
+    title: "From $80 in Pocket to Becoming a Global Physician: Dr. Joseph Chalil's Journey",
+  },
+  {
+    id: "NCPzMMQS584",
+    title: "Did the India-Middle East-Europe Economic Corridor Trigger the Attack on Israel by Hamas?",
+  },
+  {
+    id: "0BxjKe0WWTU",
+    title: "Did the India-Middle East-Europe Economic Corridor Trigger the Attack on Israel by Hamas?",
+  },
+  {
+    id: "GhhGAAoyrTg",
+    title: "Trudeau vs Modi: Highlights from Weekend Debate",
+  },
+  {
+    id: "4nLxYgp5IDc",
+    title: "Highlights from Dr. Chalil's Comments on CNN News18",
+    source: "CNN News18",
+  },
+  {
+    id: "g3ioc1Q5JZ4",
+    title: "Dr. Chalil on Donald Trump's 2024 Presidential Election Campaign: Trump vs DeSantis",
+  },
+  {
+    id: "sJ6_bKr-bTk",
+    title: "Dr. Joseph Chalil Honored Member of IAOTP",
+  },
+  {
+    id: "mxK_bfyh-TM",
+    title: "Dr. Joseph Chalil — Author of Beyond the COVID-19 Pandemic, President of Novomerica Healthcare",
+  },
+  {
+    id: "mZk-Qt_04os",
+    title: "UK PM's Day 2 In India: Bolstering Bilateral Ties On Agenda",
+    source: "NewsX",
+  },
+  {
+    id: "jufmCevQZpY",
+    title: "United States Should Increase Oil Exports and Encourage OPEC Nations — Dr. Joseph M. Chalil",
+  },
+  {
+    id: "ICeq4khUnJQ",
+    title: "What's the Future of Ukraine? Discussion with Amb. Vishnu Prakash and Sergey Utkin",
+    source: "India Ahead TV",
+  },
+  {
+    id: "yeBAEZHfhUw",
+    title: "Russia-Ukraine Conflict",
+  },
+  {
+    id: "Q-sIQv3AdoI",
+    title: "Covid-19, Vaccines and Beyond: Pravasi TV Interview with Dr. Joseph Chalil",
+    source: "Pravasi TV",
+  },
+  {
+    id: "_DHLvdxJ_MY",
+    title: "15th Annual Global Healthcare Summit",
+  },
+  {
+    id: "YIZBrVbadXE",
+    title: "Stanford University Ideal Village Conference 2021: Path Forward After the Pandemic",
+  },
+  {
+    id: "fyontdfB2KU",
+    title: "1st In-Person QUAD Summit: What Will Be The Key Agreements?",
+    source: "NewsX",
+  },
+  {
+    id: "Sr71orZFIN0",
+    title: "Editor's Hour With Dr. Joseph Chalil and Amb. TP Sreenivasan, Former India Representative to UN",
+  },
+  {
+    id: "k7DRqX45Q9k",
+    title: "NewsX iTV Presents VaKu Diaspora Broadcasting Network Mega Launch",
+    source: "NewsX",
+  },
+  {
+    id: "wQuUfkrE0C8",
+    title: "Covid-19, Vaccines and Beyond: Pravasi TV Interview with Dr. Joseph Chalil",
+    source: "Pravasi TV",
+  },
+  {
+    id: "appuA4Y7W5k",
+    title: "Highlights of US Presidential Election by Dr. Chalil",
+  },
+  {
+    id: "nF96DJ450dk",
+    title: "Beyond the COVID-19 Pandemic: Envisioning a Better World by Transforming the Future of Healthcare",
+  },
+  {
+    id: "EkAmBrsXAYo",
+    title: "Beyond the COVID-19 Pandemic: Envisioning a Better World by Transforming the Future of Healthcare",
+  },
 ];
 
 const galleryBase =
