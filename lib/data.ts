@@ -223,6 +223,7 @@ export const news = [
     meta: "The Sunday Guardian · June 2025",
     description:
       "An op-ed arguing that Western media and policymakers judge India's lawful security measures far more harshly than similar actions taken by the United States, and calling for the two democracies to treat each other as equals.",
+    image: "/images/news/The-West-must-end-its-double-standards-towards-India.jpg",
     source: "The Sunday Guardian",
     content: [
       "The piece compares President Trump's 2025 deployment of National Guard troops and Marines to quell unrest in Los Angeles with the Indian government's use of security forces during the 2021–22 farmers' protests and after the revocation of Article 370 in Jammu and Kashmir. Both actions, the argument goes, were carried out within each country's constitutional framework, yet Western commentators branded India's response as authoritarian while treating the American case as a legitimate exercise of executive power.",
@@ -238,6 +239,7 @@ export const news = [
     meta: "The Sunday Guardian · December 2023",
     description:
       "Co-authored with Ambassador Pradeep Kapur, this piece examines how India could help rebuild and stabilize the Middle East after conflict, through economic corridors, education and diplomacy.",
+    image: "/images/news/Bharats-role-in-rebuilding-of-post-war-Middle-East.jpg",
     source: "The Sunday Guardian",
     content: [
       "Co-written with Ambassador Pradeep Kapur and published in The Sunday Guardian, the article looks at how India could contribute to postwar recovery and long-term stability in the Middle East.",
@@ -253,6 +255,7 @@ export const news = [
     meta: "The Sunday Guardian · November 2023",
     description:
       "Written with Ambassador Pradeep Kapur, this analysis examines India's diplomatic options after a Qatari court ruling against a group of former Indian Navy officers, and what is at stake for bilateral relations.",
+    image: "/images/news/Qatar-India-Diplomatic-Conundrum-Whats-Indias-Next-Move.jpg",
     source: "The Sunday Guardian",
     content: [
       "Co-authored with Ambassador Pradeep Kapur for The Sunday Guardian, the article examines the diplomatic fallout after a Qatari court's judgment against a group of retired Indian Navy officers, and the options available to New Delhi in response.",
@@ -269,6 +272,7 @@ export const news = [
     meta: "USA Today · August 2023",
     description:
       "In this USA Today feature on the 2024 Republican primary, Dr. Chalil discusses why Vivek Ramaswamy's business-first message and generational appeal resonate with segments of the Indian American electorate.",
+    image: "/images/news/Why-Nikki-Haley-and-Vivek-Ramaswamy-matter-to-Indian-American-voters-in-2024-Image.jpg",
     source: "USA Today",
     content: [
       "Speaking with USA Today ahead of the 2024 Republican primary, Dr. Chalil discussed how candidates Nikki Haley and Vivek Ramaswamy were courting Indian American voters.",
@@ -284,6 +288,7 @@ export const news = [
     meta: "The Universal News Network · July 2023",
     description:
       "Coverage of Dr. Chalil receiving the Presidential Award for Leadership from the American Association of Physicians of Indian Origin (AAPI), recognizing his contributions to the organization and the broader Indian American medical community.",
+    image: "/images/news/Dr.-Joseph-M.-Chalil-Honored-with-AAPIs-Presidential-Award.jpg",
     source: "The Universal News Network",
     content: [
       "The Universal News Network reported on Dr. Joseph M. Chalil being honored with AAPI's Presidential Award for Leadership, recognizing his years of service and advocacy on behalf of physicians of Indian origin in the United States.",
@@ -297,6 +302,7 @@ export const news = [
     meta: "The Sunday Guardian · June 2023",
     description:
       "A Sunday Guardian piece marking nine years of the Modi government, highlighting the sharp rise in medical colleges, MBBS seats and AIIMS campuses in India relative to the U.S. and Canada.",
+    image: "/images/news/Under-Modi-Govt-India-Beats-The-World-In-Medical-Infrastructure.jpg",
     source: "The Sunday Guardian",
     content: [
       "Published in The Sunday Guardian as part of a series assessing nine years under the Modi government, the article cites a 78% increase in the number of medical colleges in India since 2014, compared with 9% growth in the United States and none in Canada over the same period.",
@@ -310,6 +316,7 @@ export const news = [
     meta: "The Sunday Guardian · March 2023",
     description:
       "Drawing on Lancet and AAMC projections of a global and U.S. physician shortage, this piece argues that India, as G20 host and through Prime Minister Modi's leadership, is positioned to help address the coming workforce gap.",
+    image: "/images/news/Under-Indias-leadership-G20-can-solve-impending-global-healthcare-crisis.jpg",
     source: "The Sunday Guardian",
     content: [
       "Citing a Lancet estimate that 6.4 million more physicians are needed worldwide to meet universal health coverage goals, and AAMC projections of a U.S. shortfall of up to 139,000 physicians by 2033, the article argues that the global healthcare workforce shortage deserves a central place on the G20 agenda.",
@@ -323,6 +330,7 @@ export const news = [
     meta: "The Sunday Guardian · March 2023",
     description:
       "A short Sunday Guardian piece arguing that India's success with mass COVID-19 vaccination shows the country's potential to lead on public health, provided it also invests in everyday preventive care such as routine physical exams.",
+    image: "/images/news/Prevention-better-than-cure-Your-annual-physical-exam-is-important.jpg",
     source: "The Sunday Guardian",
     content: [
       "The piece points to India's large-scale COVID-19 vaccination campaign as evidence of what the country's health system can achieve at scale, while arguing that sustained investment in preventive care, including routine annual physical exams, is still needed to build a healthier population over the long term.",
@@ -334,6 +342,7 @@ export const news = [
     meta: "The Universal News Network · March 2023",
     description:
       "A feature on Dr. Chalil and Ambassador Pradeep Kapur's book, which proposes a 'Grand Plan' combining a public safety net with free-market competition to reform U.S. healthcare delivery and prepare for future crises.",
+    image: "/images/news/Beyond-the-COVID-19-Pandemic-Envisioning-a-Better-World-by-Transforming-the-Future-of-Healthcare.jpg",
     source: "The Universal News Network",
     content: [
       "The piece introduces Beyond the COVID-19 Pandemic: Envisioning a Better World by Transforming the Future of Healthcare, co-written by Ambassador Pradeep Kapur and Dr. Joseph Chalil, which draws lessons from the pandemic to propose reforms to U.S. healthcare delivery.",
@@ -349,6 +358,7 @@ export const news = [
     meta: "The Universal News Network · April 2022",
     description:
       "Announcement of Dr. Chalil's appointment as Chief Medical Officer of Novo Integrated Sciences (NASDAQ: NVOS) and President of Novomerica Health Group, following the acquisition of Clinical Consultants International.",
+    image: "/images/news/Dr.-Joseph-M.-Chalil-MD-MBA-FACHE-is-appointed-as-the-Chief-Medical-Officer-of-Novo-Integrated-Sciences-Inc.-NASDAQ-NVOS-and-the-New-President-of-Novomerica-Health-Group.jpeg",
     source: "The Universal News Network",
     content: [
       "Novo Integrated Sciences, Inc. (NASDAQ: NVOS) announced the appointment of Dr. Joseph M. Chalil as its Chief Medical Officer and President of its new Novomerica Health Group subsidiary, following the company's acquisition of Clinical Consultants International (CCI), the firm Dr. Chalil had led.",
@@ -364,6 +374,7 @@ export const news = [
     meta: "Intermountain West Allergy Association · September 2021",
     description:
       "Dr. Chalil presented research on the severity reduction seen after 12 months of epicutaneous immunotherapy for peanut allergy at the Intermountain West Allergy Association's annual scientific session.",
+    image: "/images/news/Reduction-in-Severity-Following-12-Months-of-Epicutaneous-Immunotherapy-for-Peanut-Allergy.jpg",
     source: "Intermountain West Allergy Association",
     content: [
       "Dr. Chalil presented a research poster, 'Reduction in Severity Following 12 Months of Epicutaneous Immunotherapy for Peanut Allergy,' at the 23rd Annual Scientific Session of the Intermountain West Allergy Association, held at The Coeur d'Alene Resort in Idaho.",
@@ -375,6 +386,7 @@ export const news = [
     meta: "The Sunday Guardian · July 2021",
     description:
       "A Sunday Guardian op-ed proposing a dedicated Indian Health Service cadre, modeled on the IAS, to staff and coordinate India's public health system at the district level.",
+    image: "/images/news/Functioning-primary-health-facilities-first-step-towards-healthcare-reform.jpg",
     source: "The Sunday Guardian",
     content: [
       "The article proposes that India create a dedicated Indian Health Service (IHS) branch, similar in structure to the Indian Administrative Service, to coordinate public health delivery at the district level.",
@@ -388,6 +400,7 @@ export const news = [
     meta: "The Epoch Times · June 2021",
     description:
       "Reporting from a village outside New Delhi, this piece documents how COVID-19 testing and vaccination bypassed a shuttered local sub-health center, exposing structural gaps in India's three-tiered rural healthcare system.",
+    image: "/images/news/Pandemic-Exposes-Gaps-in-Indias-Primary-Health-Care-System.jpg",
     source: "The Epoch Times",
     content: [
       "Reporting from Nausana, a village roughly 60 miles outside New Delhi in Uttar Pradesh, the piece describes how COVID-19 vaccinations were administered on traditional rope beds in villagers' homes rather than at the local sub-health center, which sat locked, dusty and unused.",

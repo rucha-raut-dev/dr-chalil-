@@ -35,6 +35,20 @@ export default function NewsPage() {
               {String(index + 1).padStart(2, "0")}
             </span>
 
+            <div className="news-thumbnail">
+              {article.image ? (
+                <img
+                  src={article.image}
+                  alt={article.title}
+                  loading="lazy"
+                />
+              ) : (
+                <div className="news-thumbnail-placeholder">
+                  <span>NEWS</span>
+                </div>
+              )}
+            </div>
+
             <div className="news-info">
               <h3>{article.title}</h3>
 
